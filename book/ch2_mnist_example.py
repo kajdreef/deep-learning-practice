@@ -1,3 +1,7 @@
+"""
+Deep Learning with Python
+Chapter 2: Classifying Handwritten Numbers
+"""
 from __future__ import print_function
 import numpy as np
 import os

@@ -1,3 +1,8 @@
+"""
+Deep Learning with Python
+Chapter 3.4: Classifying movie reviews
+"""
+
 from __future__ import print_function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -8,7 +13,6 @@ os.environ["KERAS_BACKEND"] = "plaidml.keras.backend"
 
 from keras import models
 from keras import layers
-from keras.datasets import mnist
 from keras.utils import to_categorical
 from keras.datasets import imdb
 from keras import optimizers
